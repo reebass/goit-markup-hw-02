@@ -9,6 +9,7 @@
   --text-white-cl: #ffffff;
   --text-nav-cl: #000000;
   --footer-mail-phone-cl: rgba(255, 255, 255, 0.6);
+  --btn-hover: #188ce8;
   /* bg colors */
   --dark-bg-cl: #2f303a;
   --light-bg-cl: #f5f4fa;
@@ -43,6 +44,11 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--text-white-cl);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--btn-hover);
 }
 
 .section-title {
@@ -87,7 +93,7 @@ body {
 
 .footer-contact:focus,
 .footer-contact:hover {
-  color: var(--text-accent-cl);
+  color: var(--text-white-cl);
 }
 
 /* header */
@@ -139,7 +145,6 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-white-cl);
@@ -147,12 +152,9 @@ body {
 
 /* section features */
 
-.features-list {
-  font-size: 14px;
-}
-
 .feature-title {
   font-weight: 700;
+  font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -160,6 +162,7 @@ body {
 
 .feature-desc {
   font-weight: 400;
+  font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--text-second-cl);
@@ -171,19 +174,18 @@ body {
   background-color: var(--light-bg-cl);
 }
 
-.team-list {
-  font-size: 16px;
-  line-height: calc(19 / 16);
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
 .team-name {
   font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
 }
 
 .team-post {
   font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
   color: var(--text-second-cl);
 }
 
